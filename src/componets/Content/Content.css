@@ -1,0 +1,44 @@
+.content {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info h1 {
+  font-weight: 800;
+  line-height: 102px;
+  font-size: 108px;
+}
+.info > p {
+  font-weight: 600;
+  color: var(--gray);
+  max-width: 400px;
+  margin: 30px 0;
+}
+.btns {
+  margin: 30px 0;
+  display: flex;
+  gap: 40px;
+}
+.btns button {
+  padding: 6px 16px;
+  width: 150px;
+  color: white;
+  font-size: 25px;
+  background: #b31621;
+  border: 1px solid #b31621;
+  cursor: pointer;
+}
+.btns button.active {
+  background: transparent;
+  color: gray;
+  border: 1px solid gray;
+}
+.shopping p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.brand-icons {
+  display: flex;
+  gap: 16px;
+}

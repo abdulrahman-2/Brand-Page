@@ -1,0 +1,22 @@
+.navbar {
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .links {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.navbar button {
+  padding: 10px 25px;
+  background-color: #d21929;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
